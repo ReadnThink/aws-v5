@@ -22,7 +22,7 @@ public class BookApiController {
 
     @GetMapping("/")
     public String home() {
-        return "<h1>aws-v5</h1>";
+        return "<h1>aws-v5 \n CICD 무중단 배포를 성공!!</h1>";
     }
 
     @PostMapping("/api/book")
