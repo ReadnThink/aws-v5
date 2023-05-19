@@ -24,7 +24,8 @@ public class BookApiController {
     public String home() {
         return "<h1>aws-v5 \n " +
                 "CICD 무중단 배포를 성공!!</h1> " +
-                "IAM 생성 후 git setting에서 Access Key 설정도 완료!";
+                "IAM 생성 후 git setting에서 Access Key 설정도 완료!" +
+                "환경변수 오타 수정!";
     }
 
     @PostMapping("/api/book")
